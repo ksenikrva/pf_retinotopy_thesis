@@ -11,23 +11,25 @@ This repository contains:
 - Rendered frames
 - Videos
 ### Repository structure
+```text
 .
 ├── 1. simulation/
 │   ├── ver1/                  # Version 1 simulations
 │   ├── ver2/                  # Version 2 simulations
-│   ├── ver2b/                 # Version 2b simulations, including additions such as Lcells and extra advection
-│   ├── unity end-state/       # End-state  simulations
+│   ├── ver2b/                 # Version 2b simulations, including additions such as L-cells and extra advection
+│   ├── unity end-state/       # End-state simulations
 │   ├── *.sh                   # HPC scripts
-│   └── *.csv                  # Sampeled parameters
+│   └── *.csv                  # Sampled parameters
 ├── 2. analysis/
-│   ├── mean_shape_and_bundles/    # Mean-shape and bundles per run
-│   ├── relation_ana/              # Relationship analyses
-│   ├── run_metrics/               # Calculated simulation metrics
-│   ├── run_metrics_nob/           # Calculated simulation metrics (inner bundles only)
-│   ├── *.ipynb                    # Analysis and visualization notebooks
-│   └── *.csv                      # Biological reference and derived data
-├── 3. frames/               # Rendered simulation frames (all)
-├── 4. videos/               # Rendered simulation videos (subset)
+│   ├── mean_shape_and_bundles/  # Mean-shape and bundle analyses
+│   ├── relation_ana/             # Relationship analyses
+│   ├── run_metrics/              # Calculated simulation metrics
+│   ├── run_metrics_nob/          # Calculated simulation metrics (inner bundles only)
+│   ├── *.ipynb                   # Analysis and visualization notebooks
+│   └── *.csv                     # Biological reference data
+├── 3. frames/                  # Rendered simulation frames
+└── 4. videos/                  # Rendered simulation videos
+```
 
 ## Required software
 
