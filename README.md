@@ -21,6 +21,16 @@ The simulations require:
 	- CUDA-capable NVIDIA GPU
 	- C++ compiler
 
+Analysis code is provided as `.ipynb` notebooks, using:
+
+- Python 3.12.7
+- NumPy 2.4.6
+- pandas 2.2.3
+- Matplotlib 3.10.0
+- SciPy 1.17.1
+- Pillow 10.3.0
+- ImageIO 2.37.3
+
 ## Usage
 
 Example compile and call for the simulations:
@@ -30,6 +40,6 @@ nvcc --std=c++17 ver2b.cu -lcuda -lcufft -lcublas -O3 -o ver2b
 
 ver2b cool_run 3 6 5 2 7 0.7
 ```
-Argument structure: `*folder*` `*rows*` `*bundles (per row)*` `*lambda*` `*kappaFMI*` `*kappaSDK*` `*D*`
+Argument structure: `folder` `rows` `bundles (per row)` `lambda` `kappaFMI` `kappaSDK` `D`
 
-For running singular runs / parameter sweeps on [Curta HPC](https://refubium.fu-berlin.de/handle/fub188/26993), example bash scripts **test.sh** and **sim_run.sh** are given
+For running singular runs / parameter sweeps on [Curta HPC](https://refubium.fu-berlin.de/handle/fub188/26993), example bash scripts `test.sh` and `sim_run.sh` are given
