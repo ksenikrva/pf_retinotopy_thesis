@@ -20,10 +20,13 @@ The simulations require:
 	- cuBLAS
 	- CUDA-capable NVIDIA GPU
 	- C++ compiler
-
+Example compile and call:
 ```bash
-install stuff
+nvcc --std=c++17 ver2b.cu -lcuda -lcufft -lcublas -O3 -o ver2b
+
+ver2b cool_run 3 6 5 2 7 0.7
 ```
+Argument structure: *folder* *rows* *bundles (per row)* *lambda* *kappaFMI* *kappaSDK* *D*
 
 ## Usage
 
