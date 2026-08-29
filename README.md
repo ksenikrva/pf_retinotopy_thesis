@@ -62,3 +62,7 @@ ver2b cool_run 3 6 5 2 7 0.7
 Argument structure: `folder` `rows` `bundles (per row)` `lambda` `kappaFMI` `kappaSDK` `D`
 
 For running singular runs / parameter sweeps on [Curta HPC](https://refubium.fu-berlin.de/handle/fub188/26993), example bash scripts `test.sh` and `sim_run.sh` are given
+
+## Output
+
+Simulation outputs are written to the folder specified by the argument as per-photoreceptor, per-timepoint `.txt` files of the whole *MxM* field
