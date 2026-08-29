@@ -14,12 +14,12 @@ This repository contains:
 
 The simulations require:
 
--NVIDIA CUDA, including:
+- NVIDIA CUDA, including:
 
-- cuFFT
-- cuBLAS
-- CUDA-capable NVIDIA GPU
-- C++ compiler
+	- cuFFT
+	- cuBLAS
+	- CUDA-capable NVIDIA GPU
+	- C++ compiler
 
 ```bash
 install stuff
