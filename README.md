@@ -11,7 +11,7 @@ This repository contains:
 - Rendered frames
 - Videos
 ### Repository structure
-
+.
 ├── 1. simulation/
 │   ├── ver1/                  # Version 1 simulations
 │   ├── ver2/                  # Version 2 simulations
