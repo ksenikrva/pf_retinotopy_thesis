@@ -21,7 +21,9 @@ The simulations require:
 	- CUDA-capable NVIDIA GPU
 	- C++ compiler
 
-Example compile and call:
+## Usage
+
+Example compile and call for the simulations:
 
 ```bash
 nvcc --std=c++17 ver2b.cu -lcuda -lcufft -lcublas -O3 -o ver2b
@@ -30,8 +32,4 @@ ver2b cool_run 3 6 5 2 7 0.7
 ```
 Argument structure: `*folder*` `*rows*` `*bundles (per row)*` `*lambda*` `*kappaFMI*` `*kappaSDK*` `*D*`
 
-## Usage
-
-```bash
-stuff
-```
+For running singular runs / parameter sweeps on [Curta HPC](https://refubium.fu-berlin.de/handle/fub188/26993), example bash scripts **test.sh** and **sim_run.sh** are given
