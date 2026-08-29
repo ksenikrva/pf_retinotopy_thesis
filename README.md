@@ -10,16 +10,33 @@ This repository contains:
 - Analysis code
 - Rendered frames
 - Videos
+### Repository structure
+
+├── 1. simulation/
+│   ├── ver1/                  # Version 1 simulations
+│   ├── ver2/                  # Version 2 simulations
+│   ├── ver2b/                 # Version 2b simulations, including additions such as Lcells and extra advection
+│   ├── unity end-state/       # End-state  simulations
+│   ├── *.sh                   # HPC scripts
+│   └── *.csv                  # Sampeled parameters
+├── 2. analysis/
+│   ├── mean_shape_and_bundles/    # Mean-shape and bundles per run
+│   ├── relation_ana/              # Relationship analyses
+│   ├── run_metrics/               # Calculated simulation metrics
+│   ├── run_metrics_nob/           # Calculated simulation metrics (inner bundles only)
+│   ├── *.ipynb                    # Analysis and visualization notebooks
+│   └── *.csv                      # Biological reference and derived data
+├── 3. frames/               # Rendered simulation frames (all)
+├── 4. videos/               # Rendered simulation videos (subset)
+
 ## Required software
 
-The simulations require:
+The simulations require NVIDIA CUDA, including:
 
-- NVIDIA CUDA, including:
-
-	- cuFFT
-	- cuBLAS
-	- CUDA-capable NVIDIA GPU
-	- C++ compiler
+- cuFFT
+- cuBLAS
+- CUDA-capable NVIDIA GPU
+- C++ compiler
 
 Analysis code is provided as `.ipynb` notebooks, using:
 
