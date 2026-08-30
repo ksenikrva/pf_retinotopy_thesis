@@ -18,6 +18,7 @@ This repository contains:
 │   ├── ver2/                  # Version 2 simulations
 │   ├── ver2b/                 # Version 2b simulations, including additions such as L-cells and extra advection
 │   ├── unity end-state/       # End-state simulations
+│   ├── cell2D_adh.cu          # Two cell setting for adh. measurement
 │   ├── *.sh                   # HPC scripts
 │   └── *.csv                  # Sampled parameters
 ├── 2. analysis/
