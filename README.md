@@ -65,4 +65,4 @@ For running singular runs / parameter sweeps on [Curta HPC](https://refubium.fu-
 
 ## Output
 
-Simulation outputs are written to the folder specified by the argument as per-photoreceptor, per-timepoint `.txt` files of the whole *MxM* field
+Simulation outputs are written to the folder specified by the argument as per-photoreceptor, per-timepoint `.txt` files of the whole *MxM* field. Original `.tar.gz` files are ommited from this repository, as these are too large.
